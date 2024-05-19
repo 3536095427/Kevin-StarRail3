@@ -1,0 +1,50 @@
+
+server:
+  port: 1999
+
+spring:
+  application:
+    name: starrail-gateway
+  redis:
+    database: 0
+    host: 
+    port: 6379
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: :8848
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedOriginPatterns: "*"
+            # 允许请求中携带的头信息
+            allowedHeaders: "*"
+            # 运行跨域的请求方式
+            allowedMethods: "*"
+            # 跨域检测的有效期,单位s
+            maxAge: 36000
+      routes:
+        - id: ticket
+          uri: lb://starrail-service-ticket
+          predicates:
+            - Path=/api/ticket/**
+
+        - id: user
+          uri: lb://starrail-service-user
+          predicates:
+            - Path=/api/user/**
+
+        - id: travlepath
+          uri: lb://starrail-service-travlepath
+          predicates:
+            - Path=/api/travelpath/**
+
+        - id: order
+          uri: lb://starrail-service-order
+          predicates:
+            - Path=/api/order/**

@@ -1,0 +1,34 @@
+
+server:
+  port: 8831
+
+
+spring:
+  application:
+    name: starrail-service-ticket
+
+
+  datasource:
+    url: jdbc:mysql://:3306/starraildb
+    username: root
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  cache:
+    type: redis
+
+  redis:
+    database: 0
+    port: 6379
+    host: 
+
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: :8848
+
+
+mybatis-plus:
+  type-aliases-package: com.atguigu.model
+  mapper-locations: classpath:mapper/*.xml

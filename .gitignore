@@ -1,0 +1,10 @@
+# Project exclude paths
+/starrail-common-service/common-log/target/
+/starrail-common-service/common-service/target/
+/starrail-common-service/common-utils/target/
+/starrail-gateway/target/
+/starrail-model/target/
+/starrail-service/StarRail-Service-OrderService/target/
+/starrail-service/StarRail-Service-TickerService/target/
+/starrail-service-client/StarRail-Client-Ticket/target/
+/starrail-service-client/StarRail-Client-TravelPath/target/

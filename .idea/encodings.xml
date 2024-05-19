@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starrail-common-service/common-log/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starrail-common-service/common-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starrail-common-service/common-utils/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starrail-common-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starrail-common-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starrail-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starrail-model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starrail-service-client/StarRail-Client-Ticket/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starrail-service-client/StarRail-Client-TravelPath/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starrail-service-client/StarRail-Service-OrderServiceClient/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starrail-service-client/StarRail-Service-TickerServiceClient/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starrail-service-client/StarRail-Service-TravelPathServiceClient/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starrail-service-client/StarRail-Service-UserServiceClient/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starrail-service-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starrail-service-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starrail-service/StarRail-Service-OrderService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starrail-service/StarRail-Service-TickerService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starrail-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starrail-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starrail-service/starrail-service-travel/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starrail-service/starrail-service-travelpath/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starrail-service/starrail-service-user/src/main/java" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="StarRail-Service-OrderService" />
+        <module name="StarRail-Client-TravelPath" />
+        <module name="starrail-service-travel" />
+        <module name="StarRail-Service-TickerService" />
+        <module name="common-service" />
+        <module name="starrail-model" />
+        <module name="starrail-service-user" />
+        <module name="common-log" />
+        <module name="common-utils" />
+        <module name="StarRail-Client-Ticket" />
+        <module name="starrail-gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="StarRail-Service-OrderServiceClient" target="1.8" />
+      <module name="StarRail-Service-TickerServiceClient" target="1.8" />
+      <module name="starrail-service-travelpath" target="1.8" />
+      <module name="StarRail-Service-TravelPathServiceClient" target="1.8" />
+      <module name="StarRail-Service-UserServiceClient" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="StarRail-Client-Ticket" options="-parameters" />
+      <module name="StarRail-Client-TravelPath" options="-parameters" />
+      <module name="StarRail-Service-OrderService" options="-parameters" />
+      <module name="StarRail-Service-OrderServiceClient" options="-parameters" />
+      <module name="StarRail-Service-TickerService" options="-parameters" />
+      <module name="StarRail-Service-TickerServiceClient" options="-parameters" />
+      <module name="StarRail-Service-TravelPathServiceClient" options="-parameters" />
+      <module name="StarRail-Service-UserServiceClient" options="-parameters" />
+      <module name="StarRail3" options="" />
+      <module name="common-log" options="-parameters" />
+      <module name="common-service" options="-parameters" />
+      <module name="common-utils" options="-parameters" />
+      <module name="starrail-common-service" options="" />
+      <module name="starrail-gateway" options="-parameters" />
+      <module name="starrail-model" options="-parameters" />
+      <module name="starrail-service" options="" />
+      <module name="starrail-service-client" options="" />
+      <module name="starrail-service-travel" options="-parameters" />
+      <module name="starrail-service-travelpath" options="-parameters" />
+      <module name="starrail-service-user" options="-parameters" />
+    </option>
+  </component>
+</project>

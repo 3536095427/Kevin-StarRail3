@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.atguigu.orderservice.dao.OrderMapper">
+    <!-- 在这里添加你的SQL映射 -->
+
+
+    <resultMap id="OrderResultMap" type="Order">
+        <id property="orderId" column="order_id" />
+        <result property="generateTime" column="generate_time" />
+        <result property="paymentStatus" column="payment_status" />
+        <result property="passengerName" column="passenger_name" />
+        <result property="passengerId" column="passenger_id" />
+        <association property="ticket" javaType="Ticket">
+            <result property="ticketId" column="ticket_id" />
+            <result property="startStation" column="start_station" />
+            <result property="destinationStation" column="destination_station" />
+            <result property="startTime" column="start_time" />
+            <result property="arrivalTime" column="arrival_time" />
+            <result property="trainInfo" column="train_info" />
+            <result property="seatInfo" column="seat_info" />
+            <result property="distance" column="distance" />
+            <result property="time" column="time" />
+            <result property="price" column="price" />
+            <result property="pathInfo" column="path_info" />
+        </association>
+     </resultMap>
+
+    <insert id="addOrder" parameterType="Order">
+        INSERT INTO `order` (order_id, owner_id, generate_time, payment_status, ticket_id,passenger_name,passenger_id)
+        VALUES (#{orderId}, #{owner.id}, #{generateTime, jdbcType=TIMESTAMP}, #{paymentStatus}, #{ticket.ticketId},#{passengerName},#{passengerId})
+    </insert>
+
+    <select id="getOrderByOwnerId" resultMap="OrderResultMap">
+        select * from `order`
+        join ticket on order.ticket_id = ticket.ticket_id
+        where order.owner_id = #{ownerId}
+    </select>
+</mapper>

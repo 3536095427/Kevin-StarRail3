@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/starrail-service/StarRail-Service-OrderService/StarRail-Service-OrderService.iml" filepath="$PROJECT_DIR$/starrail-service/StarRail-Service-OrderService/StarRail-Service-OrderService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starrail-service/StarRail-Service-TickerService/StarRail-Service-TickerService.iml" filepath="$PROJECT_DIR$/starrail-service/StarRail-Service-TickerService/StarRail-Service-TickerService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starrail-gateway/starrail-gateway.iml" filepath="$PROJECT_DIR$/starrail-gateway/starrail-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starrail-service/starrail-service-travel/starrail-service-travel.iml" filepath="$PROJECT_DIR$/starrail-service/starrail-service-travel/starrail-service-travel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StarRail-Service/StarRail-Service-TravelPathService/starrail-service-travelpath.iml" filepath="$PROJECT_DIR$/StarRail-Service/StarRail-Service-TravelPathService/starrail-service-travelpath.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starrail-service/starrail-service-user/starrail-service-user.iml" filepath="$PROJECT_DIR$/starrail-service/starrail-service-user/starrail-service-user.iml" />
+    </modules>
+  </component>
+</project>

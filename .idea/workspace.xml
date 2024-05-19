@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="StarRail2:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="21eb2922-c1d1-4481-88a3-307f2c424b20" name="Changes" comment="基本完成所有基础功能" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../StarRail2\exportToHTML" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML4 File" />
+        <option value="MyBatis" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;assignee&quot;: &quot;3536095427&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+    &quot;assignee&quot;: &quot;3536095427&quot;
+  }
+}</component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d74d19fd-d6e7-4968-b368-455c99d551a7" />
+        <option name="url" value="https://github.com/3536095427/StarRail2.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="E:/apache-maven-3.9.5" />
+        <option name="localRepository" value="E:\MavenSpace\Repository" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.9.5\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2Vc2cpv3e2L0t5mHk9yhXwf8owV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JUnit.FirstTest.testRedis.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SecondTest.testRedis.executor&quot;: &quot;Debug&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.StarRail-Common-Service [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.StarRail-Service [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.StarRail-Service-OrderService [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.StarRail-Service-OrderService [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.StarRail-Service-TickerService [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.StarRail-Service-UserService [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.StarRail-Service-UserService [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.StarRail-Service-UserService [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.StarRail-model [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.StarRail-model [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.StarRail-model [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.StarRail2 [-X].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.StarRail2 [-x].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.StarRail2 [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.StarRail2 [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.StarRail2 [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.StarRail2 [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.StarRail3 [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.StarRail3 [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.StarRail3 [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.StarRail3 [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.StarRail3 [verify].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.common-log [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.common-service [-X,compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.common-service [-x].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.common-service [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.common-service [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.common-service [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.common-utils [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.starrail-common-service [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.starrail-common-service [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.starrail-common-service [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.starrail-gateway [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.starrail-model [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.starrail-model [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.starrail-service [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.starrail-service-client [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.starrail-service-client [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.starrail-service-travel [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.starrail-service-user [-X,compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.starrail-service-user [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-HotSwap&quot;: &quot;Hot Swap performed&quot;,
+    &quot;Notification.DoNotAsk-HotSwap&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.CommonService.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.GatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.OrderApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.StarRail2Application.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.TeES.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.TicketApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.TravelPathService (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.TravelPathService.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.UserApplication.executor&quot;: &quot;Run&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;java.suggest.annotation.dependency&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8 (2)&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/小谢专用文件/编程代码/StarRail3/pom.xml&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\小谢专用文件\编程代码\StarRail3\starrail-common-service\common-service\src\main\resources" />
+      <recent name="F:\小谢专用文件\编程代码\StarRail2\starrail-common-service\common-log\src\main\resources" />
+      <recent name="F:\小谢专用文件\编程代码\StarRail2\starrail-common-service\common-log\src\main\java\com\atguigu" />
+      <recent name="F:\小谢专用文件\编程代码\StarRail2\starrail-gateway\src\main\resources" />
+      <recent name="F:\小谢专用文件\编程代码\StarRail2\starrail-service\StarRail-Service-TickerService\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\小谢专用文件\编程代码\StarRail3\starrail-common-service\common-log\src\main\resources" />
+      <recent name="F:\小谢专用文件\编程代码\StarRail2\starrail-service\StarRail-Service-OrderService\src" />
+      <recent name="F:\小谢专用文件\编程代码\StarRail2\StarRail-model\src\main\java\com\atguigu" />
+      <recent name="E:\MavenSpace\WorkSpace\StarRail2\src\main\resources" />
+      <recent name="E:\MavenSpace\WorkSpace\StarRail2\src\main\resources\static" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.atguigu" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.gateway" />
+      <recent name="com.atguigu.annoation" />
+      <recent name="com.atguigu.config" />
+      <recent name="com.atguigu.Listener" />
+      <recent name="com.atguigu.Utils" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn -x" />
+      <command value="mvn -X" />
+      <command value="mvn -X compile" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="Application" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="excludedTypes">
+      <set>
+        <option value="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="starrail-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gateway.GatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="StarRail-Service-OrderService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.orderservice.OrderApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.orderservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TicketApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="StarRail-Service-TickerService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.ticket.TicketApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.ticket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TravelPathService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="starrail-service-travel" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.travel.TravelPathService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.travel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="starrail-service-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.user.UserApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.87" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.87" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="StarRail2:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="70b57f1d-e6b5-4403-8552-e58b96b7630c" />
+        <option name="HTTP_PORT" value="8081" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51642" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="51643" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="StarRail2:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.OrderApplication" />
+      <item itemvalue="Spring Boot.TicketApplication" />
+      <item itemvalue="Spring Boot.TravelPathService" />
+      <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.87" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="Spring Boot.TicketApplication" />
+        <item itemvalue="Spring Boot.OrderApplication" />
+        <item itemvalue="Spring Boot.TravelPathService" />
+        <item itemvalue="Spring Boot.UserApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21eb2922-c1d1-4481-88a3-307f2c424b20" name="Changes" comment="" />
+      <created>1695121130354</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695121130354</updated>
+      <workItem from="1695121131831" duration="14312000" />
+      <workItem from="1695173898497" duration="1673000" />
+      <workItem from="1695175593600" duration="27000" />
+      <workItem from="1695175665655" duration="179000" />
+      <workItem from="1695175874380" duration="6385000" />
+      <workItem from="1695279251354" duration="2464000" />
+      <workItem from="1695298621510" duration="7419000" />
+      <workItem from="1695345843339" duration="593000" />
+      <workItem from="1695362842172" duration="607000" />
+      <workItem from="1695383749996" duration="5552000" />
+      <workItem from="1695434153086" duration="4364000" />
+      <workItem from="1695438580220" duration="711000" />
+      <workItem from="1695441814062" duration="9967000" />
+      <workItem from="1695452294577" duration="43000" />
+      <workItem from="1695469046927" duration="1276000" />
+      <workItem from="1695486950377" duration="4141000" />
+      <workItem from="1695703425786" duration="1300000" />
+      <workItem from="1695732218520" duration="2857000" />
+      <workItem from="1695735216822" duration="3848000" />
+      <workItem from="1695780189655" duration="906000" />
+      <workItem from="1695807401899" duration="327000" />
+      <workItem from="1695873354751" duration="670000" />
+      <workItem from="1695882563360" duration="683000" />
+      <workItem from="1695888813957" duration="572000" />
+      <workItem from="1697724989660" duration="539000" />
+      <workItem from="1697726071873" duration="131000" />
+      <workItem from="1697763050686" duration="27000" />
+      <workItem from="1697765398586" duration="437000" />
+      <workItem from="1697777262323" duration="309000" />
+      <workItem from="1697790780905" duration="1555000" />
+      <workItem from="1697794134451" duration="16000" />
+      <workItem from="1697806931586" duration="765000" />
+      <workItem from="1697961651541" duration="1314000" />
+      <workItem from="1697962982140" duration="62000" />
+      <workItem from="1697963049990" duration="3027000" />
+      <workItem from="1698063621745" duration="1213000" />
+      <workItem from="1698069135999" duration="2000" />
+      <workItem from="1698153439580" duration="595000" />
+      <workItem from="1698169528611" duration="1000" />
+      <workItem from="1698387839512" duration="1983000" />
+      <workItem from="1698549245242" duration="594000" />
+      <workItem from="1698757133705" duration="4000" />
+      <workItem from="1698913411372" duration="45000" />
+      <workItem from="1699438812756" duration="2062000" />
+      <workItem from="1699447941400" duration="4231000" />
+      <workItem from="1699452777556" duration="1087000" />
+      <workItem from="1699490470944" duration="149000" />
+      <workItem from="1699490635561" duration="5234000" />
+      <workItem from="1699537095233" duration="3000" />
+      <workItem from="1699544503447" duration="35000" />
+      <workItem from="1699544585885" duration="303000" />
+      <workItem from="1699596062608" duration="9000" />
+      <workItem from="1699711694148" duration="597000" />
+      <workItem from="1699712357316" duration="937000" />
+      <workItem from="1699842129141" duration="25000" />
+      <workItem from="1699842172329" duration="1725000" />
+      <workItem from="1699848119529" duration="112000" />
+      <workItem from="1699880840850" duration="91000" />
+      <workItem from="1700146950488" duration="26000" />
+      <workItem from="1700646590093" duration="807000" />
+      <workItem from="1700649857558" duration="11000" />
+      <workItem from="1701860002496" duration="815000" />
+      <workItem from="1701929177612" duration="13000" />
+      <workItem from="1702276017873" duration="552000" />
+      <workItem from="1702290835168" duration="8498000" />
+      <workItem from="1702353370999" duration="946000" />
+      <workItem from="1702371956088" duration="13313000" />
+      <workItem from="1702388765246" duration="104000" />
+      <workItem from="1702392583799" duration="1000000" />
+      <workItem from="1702393594810" duration="3194000" />
+      <workItem from="1702396813449" duration="1068000" />
+      <workItem from="1702431310166" duration="9517000" />
+      <workItem from="1702440921034" duration="2243000" />
+      <workItem from="1702450466439" duration="11215000" />
+      <workItem from="1702461733927" duration="170000" />
+      <workItem from="1702528310265" duration="55000" />
+      <workItem from="1702540260795" duration="7849000" />
+      <workItem from="1702548863948" duration="418000" />
+      <workItem from="1702557250084" duration="709000" />
+      <workItem from="1702564100397" duration="236000" />
+      <workItem from="1702564449688" duration="3141000" />
+      <workItem from="1702620720005" duration="5039000" />
+      <workItem from="1702636447550" duration="16001000" />
+      <workItem from="1702698392211" duration="1796000" />
+      <workItem from="1702704299294" duration="86000" />
+      <workItem from="1702711371156" duration="423000" />
+      <workItem from="1702714194931" duration="15000" />
+      <workItem from="1702783484743" duration="3381000" />
+      <workItem from="1702797616456" duration="789000" />
+      <workItem from="1702805181144" duration="1000" />
+      <workItem from="1702819145788" duration="1258000" />
+      <workItem from="1702823839442" duration="594000" />
+      <workItem from="1702826415512" duration="179000" />
+      <workItem from="1702826682666" duration="421000" />
+      <workItem from="1704279609701" duration="8971000" />
+      <workItem from="1704289053060" duration="3000" />
+      <workItem from="1704289072253" duration="2576000" />
+      <workItem from="1704291899662" duration="81000" />
+      <workItem from="1704292063552" duration="1576000" />
+      <workItem from="1705069908102" duration="59000" />
+      <workItem from="1705069991666" duration="601000" />
+      <workItem from="1705146998972" duration="430000" />
+      <workItem from="1705147968248" duration="1347000" />
+      <workItem from="1705149628633" duration="32000" />
+      <workItem from="1706517262589" duration="392000" />
+      <workItem from="1710561877980" duration="747000" />
+      <workItem from="1710569027195" duration="8815000" />
+      <workItem from="1710582578470" duration="83000" />
+      <workItem from="1710582668013" duration="128000" />
+      <workItem from="1710582807669" duration="4191000" />
+      <workItem from="1710587598361" duration="674000" />
+      <workItem from="1710588278428" duration="1846000" />
+      <workItem from="1710596209461" duration="927000" />
+      <workItem from="1710597146694" duration="2000" />
+      <workItem from="1710636394209" duration="1006000" />
+      <workItem from="1710646384785" duration="7762000" />
+      <workItem from="1710661595390" duration="6958000" />
+      <workItem from="1710668582847" duration="1221000" />
+      <workItem from="1710768173674" duration="3921000" />
+      <workItem from="1710838140626" duration="5304000" />
+      <workItem from="1710895504413" duration="543000" />
+      <workItem from="1710922473426" duration="1585000" />
+      <workItem from="1710998161290" duration="704000" />
+      <workItem from="1711009438486" duration="508000" />
+      <workItem from="1711009985512" duration="6070000" />
+      <workItem from="1711017204255" duration="344000" />
+      <workItem from="1711017566230" duration="74000" />
+      <workItem from="1711022381658" duration="3425000" />
+      <workItem from="1711025908821" duration="1837000" />
+      <workItem from="1711027778448" duration="958000" />
+      <workItem from="1711097205244" duration="24000" />
+      <workItem from="1711102335538" duration="3997000" />
+      <workItem from="1711109138411" duration="2650000" />
+      <workItem from="1711171352356" duration="5807000" />
+      <workItem from="1711188200697" duration="3821000" />
+      <workItem from="1711198135915" duration="5610000" />
+      <workItem from="1711270025815" duration="13451000" />
+      <workItem from="1711351525647" duration="413000" />
+      <workItem from="1711351946539" duration="2058000" />
+      <workItem from="1711366392590" duration="9663000" />
+      <workItem from="1711455566182" duration="5206000" />
+      <workItem from="1711460884298" duration="1489000" />
+      <workItem from="1711620079212" duration="10979000" />
+      <workItem from="1711641535982" duration="3081000" />
+      <workItem from="1711644685520" duration="11000" />
+      <workItem from="1711729202719" duration="4296000" />
+      <workItem from="1711733543876" duration="1072000" />
+      <workItem from="1711785231839" duration="597000" />
+      <workItem from="1711800430676" duration="83000" />
+      <workItem from="1711859405429" duration="1004000" />
+      <workItem from="1711860418314" duration="78000" />
+      <workItem from="1711860503155" duration="1327000" />
+      <workItem from="1711861842352" duration="812000" />
+      <workItem from="1711862664688" duration="1222000" />
+      <workItem from="1711863907949" duration="3662000" />
+      <workItem from="1712033346015" duration="108000" />
+      <workItem from="1712033881032" duration="433000" />
+      <workItem from="1712051571677" duration="767000" />
+      <workItem from="1712202053251" duration="579000" />
+      <workItem from="1712209237892" duration="3000" />
+      <workItem from="1712321806486" duration="10000" />
+      <workItem from="1714657839673" duration="212000" />
+      <workItem from="1714658059311" duration="9000" />
+      <workItem from="1714658295607" duration="1785000" />
+      <workItem from="1714661065069" duration="30000" />
+      <workItem from="1716120820584" duration="142000" />
+      <workItem from="1716122527868" duration="178000" />
+    </task>
+    <task id="LOCAL-00001" summary="第一次测试远程Gitee仓库提交">
+      <option name="closed" value="true" />
+      <created>1697964883087</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697964883087</updated>
+    </task>
+    <task id="LOCAL-00002" summary="面向对象项目测试提交">
+      <option name="closed" value="true" />
+      <created>1702375161544</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702375161544</updated>
+    </task>
+    <task id="LOCAL-00003" summary="基本实现购票功能">
+      <option name="closed" value="true" />
+      <created>1702461787997</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702461787997</updated>
+    </task>
+    <task id="LOCAL-00004" summary="基本完全实现购票功能">
+      <option name="closed" value="true" />
+      <created>1702557326963</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702557326963</updated>
+    </task>
+    <task id="LOCAL-00005" summary="基本完成所有基础功能">
+      <option name="closed" value="true" />
+      <created>1702711764635</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702711764635</updated>
+    </task>
+    <task id="LOCAL-00006" summary="基本完成所有基础功能">
+      <option name="closed" value="true" />
+      <created>1702826711319</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702826711319</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="9a662092-0959-4d46-a2de-1f1d2dbefbba" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="9a662092-0959-4d46-a2de-1f1d2dbefbba">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:E:/MavenSpace/WorkSpace/StarRail2/src/main/resources/testdata" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第一次测试远程Gitee仓库提交" />
+    <MESSAGE value="面向对象项目测试提交" />
+    <MESSAGE value="基本实现购票功能" />
+    <MESSAGE value="基本完全实现购票功能" />
+    <MESSAGE value="基本完成所有基础功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="基本完成所有基础功能" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.util.HashMap" memberName="table" />
+        <PinnedItemInfo parentTag="org.springframework.data.redis.core.RedisTemplate" memberName="valueSerializer" />
+        <PinnedItemInfo parentTag="java.util.HashMap$EntrySet" memberName="this$0" />
+        <PinnedItemInfo parentTag="java.util.HashMap" memberName="entrySet" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/StarRail2$StarRail2Application.ic" NAME="StarRail2Application Coverage Results" MODIFIED="1699439538143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
